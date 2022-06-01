@@ -19,4 +19,8 @@ git push -u origin main
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 
-#update repo
+#update repo name
+git remote set-url origin https://github.com/kamileyagci/test_project4.git
+
+#check repo url
+git remote -v
